@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html{
+    width: auto;
+}
+
+h1{
+    width:  100%;
+    height: auto;
+    background-color: lightblue;
+}
+#container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    
+}
+
+.foodItem-div ul{
+    
+    border-style: solid;
+    border-width: 1px;
+    border-color: red; 
+    margin: 5px;
+}
+
+.main_list li{
+    list-style-type: none;
+    padding: .2em;
+    
+    
+    
+}
